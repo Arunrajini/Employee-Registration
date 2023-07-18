@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ang-fire-82dc4": {
+      "hosting": {
+        "ang-fire": [
+          "ang-fire-82dc4"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ang-fire-82dc4"
+  }
+}

@@ -1,0 +1,120 @@
+<div class="container rounded- border border-5 " id="bg"  style="text-align: center;">
+  <form #f="ngForm" (ngSubmit)="addData(f)">
+      <h1>Registration</h1>
+        <div class="row">
+          <label>Employee Name</label>
+          <div class="col-12" >
+            <input type="text" class="form-control" name="EmployeeName" placeholder="Enter your Name" ngModel minlength="3">
+          </div>
+        </div>
+        <div class="row mt-2">
+          <label>Employee Age</label>
+          <div class="col-12">
+            <input type="number" class="form-control" name="Age" placeholder="Enter your Age" ngModel>
+          </div>
+        </div>
+        <div class="row mt-1">
+          <label>Dob</label>
+          <div class="col-12">
+            <input type="date" class="form-control" name="Dob" ngModel>
+          </div>
+        </div>
+        <div class="row mt-1">
+          <div class="col-6">
+            <label>Nationality</label>
+            <select aria-label="Default select example" class="form-control" name="Nationality" ngModel>
+              <option selected>--select your Nationality...</option>
+              <option>Indian</option>
+              <option>French</option>
+              <option>Greek</option>
+              <option>Japanese</option>
+              <option>Romanian</option>
+              <option>Russian</option>
+            </select>
+          </div>
+            <div class="col-6">
+              <label>Department</label>
+              <select aria-label="Default select example" class="form-control" name="Department" ngModel>
+                <option selected>--select your Department...</option>
+                <option>Development</option>
+                <option>Sales</option>
+                <option>Finance</option>
+                <option>Training</option>
+                <option>HR</option>
+                <option>Administration</option>
+              </select>
+            </div>
+          </div>
+        <div class="row mt-1">
+          <label for="fm3" class="form-check-label">Gender</label><br>
+        </div>
+        <div class="col-12">
+          <input type="radio" class="form-check-input m-1" name="Gender" value="Male" ngModel>Male
+          <input type="radio" class="form-check-input m-1" name="Gender" value="Female" ngModel>Female
+        </div>
+        <div class="row mt-1">
+          <label>Hobbies</label><br>
+        </div>
+        <div class="col-12">
+          <input type="checkbox" id="hob1" name="Hobbies" value="watching movies" ngModel>
+          <label for="hob1">watching movies</label>&nbsp;
+          <input type="checkbox" id="hob2" name="Hobbies" value="Reading" ngModel>
+          <label for="hob2">Reading</label>&nbsp;
+          <input type="checkbox" id="hob3" name="Hobbies" value="baking" ngModel>
+          <label for="hob3">baking</label>
+        </div>
+        <div class="row mt-1">
+          <div class="col-6">
+            <label>Father Name</label>
+            <input type="text" class="form-control" name="FatherName" ngModel>
+          </div>
+            <div class="col-6">
+              <label>Mother Name</label>
+              <input type="text" class="form-control" name="MotherName" ngModel>
+            </div>
+        </div>
+        <div class="row mt-1">
+          <div class="col-4">
+            <label>City</label>
+            <select aria-label="Default select example" class="form-control"  name="City" ngModel>
+              <option selected>--select your City...</option>
+              <option>Chennai</option>
+              <option>Madurai</option>
+              <option>Coimbatore</option>
+              <option>Tiruchirappalli</option>
+              <option>Dindigul</option>
+              <option>Tiruvannamalai</option>
+            </select>
+          </div>
+          <div class="col-4">
+            <label>State</label>
+              <select aria-label="Default select example" class="form-control"  name="State" ngModel>
+                  <option selected>--select your State...</option>
+                  <option>Tamil Nadu</option>
+                  <option>Maharashtra</option>
+                  <option>Punjab</option>
+                  <option>Telangana</option>
+                  <option>Karnataka</option>
+                  <option>Jharkhand</option>
+              </select>
+            </div>
+            <div class="col-4">
+              <label>Country</label>
+              <select aria-label="Default select example" class="form-control" name="Country"  ngModel>
+                <option selected>--select your Country...</option>
+                <option>India</option>
+                <option>Pakistan</option>
+                <option>United States</option>
+                <option>Russia</option>
+                <option>Japan</option>
+                <option>Vietnam</option>
+              </select>
+            </div>
+        </div>
+          
+  <div class="mt-3 ">
+    <button type="submit" value="Add" class="btn btn-dark">save Data</button> &nbsp;
+    <input type="button" value="User'list " class="btn btn-secondary" routerLink="/listuser">
+  </div>
+</form>
+</div>

@@ -1,0 +1,33 @@
+form {
+  font-family:'Times New Roman', Times, serif;
+  color: #384047;
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #7aa5b4;
+  border-radius: 8px;
+
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  
+}
+
+  form {
+    max-width: 480px;
+    max-height:fit-content;
+    background-color:#85afc1;
+    border-radius: 2ch;
+    background-position-x: center;
+  }
+
+#bg{
+
+  background-image: url('../../assets/bgimg.jpg');
+  background-position: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}

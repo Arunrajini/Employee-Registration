@@ -1,0 +1,43 @@
+<div class="container">
+    <h2>User's List Data</h2>
+    <input type="button" value="Add User" class="btn btn-dark" routerLink="/adduser">
+    <table class="table table-hover table-bordered" class="table table-striped">
+        <thead>
+            <tr class="text-center">
+                <th>S.no</th>
+                <!-- <th>ID</th> -->
+                <th>Employee Name</th>
+                <th>Employee Age</th>
+                <th>DOB</th>
+                <th>Nationality</th>
+                <th>Gender</th>
+                <th>Department</th>
+                <th>Hobbies</th>
+                <th>Father Name</th>
+                <th>Mother Name</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of userData|async; let i=index" class="text-center">
+                <td>{{i+1}}</td>
+                <!-- <td>{{i+1}}</td> -->
+                <td>{{user.EmployeeName}}</td>
+                <td>{{user.Age}}</td>
+                <td>{{user.Dob}}</td>
+                <td>{{user.Nationality}}</td>
+                <td>{{user.Gender}}</td>
+                <td>{{user.Department}}</td>
+                <td>{{user.Hobbies}}</td>
+                <td>{{user.FatherName}}</td>
+                <td>{{user.MotherName}}</td>
+                <td>{{user.City}}</td>
+                <td>{{user.State}}</td>
+                <td>{{user.Country}}</td>
+            </tr>
+        </tbody>
+
+    </table>
+</div>

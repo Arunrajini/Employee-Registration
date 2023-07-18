@@ -1,0 +1,118 @@
+{
+  "users": [
+    {
+      "app": {
+        "_isDeleted": false,
+        "_options": {
+          "projectId": "ang-fire-82dc4",
+          "appId": "1:271505392226:web:59acb781edb2664bf0073b",
+          "storageBucket": "ang-fire-82dc4.appspot.com",
+          "apiKey": "AIzaSyBStIWEizjchaQiK9uCz2YwyyG_IgVs_es",
+          "authDomain": "ang-fire-82dc4.firebaseapp.com",
+          "messagingSenderId": "271505392226"
+        },
+        "_config": {
+          "name": "[DEFAULT]",
+          "automaticDataCollectionEnabled": false
+        },
+        "_name": "[DEFAULT]",
+        "_automaticDataCollectionEnabled": false,
+        "_container": {
+          "name": "[DEFAULT]",
+          "providers": {}
+        }
+      },
+      "databaseId": {
+        "projectId": "ang-fire-82dc4",
+        "database": "(default)"
+      },
+      "settings": {
+        "host": "firestore.googleapis.com",
+        "ssl": true,
+        "ignoreUndefinedProperties": false,
+        "cacheSizeBytes": 41943040,
+        "experimentalForceLongPolling": false,
+        "experimentalAutoDetectLongPolling": true,
+        "experimentalLongPollingOptions": {},
+        "useFetchStreams": true
+      },
+      "id": 1
+    },
+    {
+      "app": {
+        "_isDeleted": false,
+        "_options": {
+          "projectId": "ang-fire-82dc4",
+          "appId": "1:271505392226:web:59acb781edb2664bf0073b",
+          "storageBucket": "ang-fire-82dc4.appspot.com",
+          "apiKey": "AIzaSyBStIWEizjchaQiK9uCz2YwyyG_IgVs_es",
+          "authDomain": "ang-fire-82dc4.firebaseapp.com",
+          "messagingSenderId": "271505392226"
+        },
+        "_config": {
+          "name": "[DEFAULT]",
+          "automaticDataCollectionEnabled": false
+        },
+        "_name": "[DEFAULT]",
+        "_automaticDataCollectionEnabled": false,
+        "_container": {
+          "name": "[DEFAULT]",
+          "providers": {}
+        }
+      },
+      "databaseId": {
+        "projectId": "ang-fire-82dc4",
+        "database": "(default)"
+      },
+      "settings": {
+        "host": "firestore.googleapis.com",
+        "ssl": true,
+        "ignoreUndefinedProperties": false,
+        "cacheSizeBytes": 41943040,
+        "experimentalForceLongPolling": false,
+        "experimentalAutoDetectLongPolling": true,
+        "experimentalLongPollingOptions": {},
+        "useFetchStreams": true
+      },
+      "id": 2
+    },
+    {
+      "app": {
+        "_isDeleted": false,
+        "_options": {
+          "projectId": "ang-fire-82dc4",
+          "appId": "1:271505392226:web:59acb781edb2664bf0073b",
+          "storageBucket": "ang-fire-82dc4.appspot.com",
+          "apiKey": "AIzaSyBStIWEizjchaQiK9uCz2YwyyG_IgVs_es",
+          "authDomain": "ang-fire-82dc4.firebaseapp.com",
+          "messagingSenderId": "271505392226"
+        },
+        "_config": {
+          "name": "[DEFAULT]",
+          "automaticDataCollectionEnabled": false
+        },
+        "_name": "[DEFAULT]",
+        "_automaticDataCollectionEnabled": false,
+        "_container": {
+          "name": "[DEFAULT]",
+          "providers": {}
+        }
+      },
+      "databaseId": {
+        "projectId": "ang-fire-82dc4",
+        "database": "(default)"
+      },
+      "settings": {
+        "host": "firestore.googleapis.com",
+        "ssl": true,
+        "ignoreUndefinedProperties": false,
+        "cacheSizeBytes": 41943040,
+        "experimentalForceLongPolling": false,
+        "experimentalAutoDetectLongPolling": true,
+        "experimentalLongPollingOptions": {},
+        "useFetchStreams": true
+      },
+      "id": 3
+    }
+  ]
+}
